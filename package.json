@@ -12,12 +12,18 @@
     "lint": "nx run-many --target=lint --all",
     "graph": "nx graph"
   },
-  "keywords": ["nx", "nestjs", "monorepo", "typescript"],
+  "keywords": [
+    "nx",
+    "nestjs",
+    "monorepo",
+    "typescript"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@nestjs/schematics": "^11.0.0",
     "@nestjs/testing": "^11.0.0",
+    "@nx/eslint": "^21.4.0",
     "@nx/js": "21.4.0",
     "@nx/nest": "^21.4.0",
     "@nx/node": "^21.4.0",
@@ -27,6 +33,10 @@
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
     "@types/node": "~18.16.9",
+    "@typescript-eslint/eslint-plugin": "^8.40.0",
+    "@typescript-eslint/parser": "^8.40.0",
+    "eslint": "^9.33.0",
+    "eslint-config-prettier": "^10.1.8",
     "nx": "^21.4.0",
     "prettier": "^2.6.2",
     "tslib": "^2.3.0",

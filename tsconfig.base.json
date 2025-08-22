@@ -14,6 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
     "paths": {
       "shared-common": ["shared-common/src/index.ts"],
       "shared-utils": ["shared-utils/src/index.ts"]
