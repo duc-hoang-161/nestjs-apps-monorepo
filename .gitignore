@@ -1,0 +1,46 @@
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+.next/
+coverage/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NX
+.nx/installation
+.nx/cache
+.nx/workspace-data
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+.cursor/rules/nx-rules.mdc
+.github/instructions/nx.instructions.md
